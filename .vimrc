@@ -41,13 +41,21 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin() "required
 
-"Plugin 'pangloss/vim-javascript'
-Plugin 'vim-airline/vim-airline'
+"----- vundle for lang -----
+Plugin 'pangloss/vim-javascript' "javascript
+Plugin 'davidhalter/jedi-vim' "python
+
+"----- vundle for vim set -----
+Plugin 'vim-airline/vim-airline' "상태바 꾸밈
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic' "상태바에 문법에러가 발생한 줄 번호 표시
+Plugin 'ctrlpvim/ctrlp.vim' "하위 디렉토리 파일 찾기
+Plugin 'airblade/vim-rooter' "루트 디렉토리 이동
+
+"----- vundle for git -----
 Plugin 'airblade/vim-gitgutter' "git 수정부분 표시
 Plugin 'tpope/vim-fugitive' "git branch 표시
-Plugin 'davidhalter/jedi-vim'
 
 call vundle#end() "required
+
 filetype plugin indent on
