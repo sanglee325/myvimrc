@@ -57,5 +57,11 @@ Plugin 'airblade/vim-gitgutter' "git 수정부분 표시
 Plugin 'tpope/vim-fugitive' "git branch 표시
 
 call vundle#end() "required
-
 filetype plugin indent on
+
+"----- Map Option -----
+map <F3> :NERDTreeToggle<CR> "F3 너드 트리 열고 닫기
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l "화면 이동 매핑
