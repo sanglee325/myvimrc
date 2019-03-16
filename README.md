@@ -13,7 +13,7 @@
 	# copy .vimrc to top directory
 	cp .vimrc ../.vimrc
 	
-	# move to directory where .vimrc is
+	# move to directory where .vimrc is or move to top directory
 	cd ..
 
 	vi .vimrc
