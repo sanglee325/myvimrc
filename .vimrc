@@ -35,6 +35,7 @@ set splitbelow
 
 set nobackup
 set showmatch
+set noswapfile
 
 set nocompatible
 filetype off
