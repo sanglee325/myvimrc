@@ -9,6 +9,7 @@
 	
 	# move to cloned directory
 	cd myvimrc
+	
 	#move colors directory to .vim directory
 	mv colors ../.vim/colors
 
