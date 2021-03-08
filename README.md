@@ -6,7 +6,9 @@
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 	git clone https://github.com/sanglee325/myvimrc.git
-
+	
+	# move to cloned directory
+	cd myvimrc
 	#move colors directory to .vim directory
 	mv colors ../.vim/colors
 
