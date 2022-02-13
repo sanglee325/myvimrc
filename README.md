@@ -1,8 +1,9 @@
 # .vimrc setting
 
 ## How To Use
+
 * In command line, type below.
-```{.bash} 
+	```{.bash} 
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 	git clone https://github.com/sanglee325/myvimrc.git
@@ -20,14 +21,29 @@
 	cd ..
 
 	vi .vimrc
-```
+	```
+
 * After	opening .vimrc, type below in command mode.
-```{.bash}
+	```{.bash}
 	:PluginInstall
-```
+	```
+
+### Applying colorscheme to tmux
+
+* Open `~/.bashrc` and add below.
+	```{.bash}
+	alias tmux="TERM=screen-256color-bce tmux"
+	```
+
+* Run `~/.bashrc`.
+	```{.bash}
+	source ~/.bashrc
+	```
+
+
 
 ## Whats Installed
-* ['pangloss/vim-javascript'](https://github.com/pangloss/vim-javascript) - plugin for javascript
+* ~~['pangloss/vim-javascript'](https://github.com/pangloss/vim-javascript) - plugin for javascript~~
 * ['davidhalter/jedi-vim'](https://github.com/davidhalter/jedi-vim) - plugin for python
 * ['vim-airline/vim-airline'](https://github.com/vim-airline/vim-airline)
 * ['scrooloose/nerdtree'](https://github.com/scrooloose/nerdtree)
