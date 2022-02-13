@@ -45,7 +45,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin() "required
 
 "----- vundle for lang -----
-Plugin 'pangloss/vim-javascript' "javascript
 Plugin 'davidhalter/jedi-vim' "python
 
 "----- vundle for vim set -----
